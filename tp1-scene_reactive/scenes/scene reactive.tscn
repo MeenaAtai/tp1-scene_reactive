@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://c8p4youo2hr5a"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.175
+anchor_top = 0.068
+anchor_right = 0.175
+anchor_bottom = 0.068
+offset_left = -109.6
+offset_top = -0.064003
+offset_right = 110.4
+offset_bottom = 133.936
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.815
+anchor_top = 0.264
+anchor_right = 0.815
+anchor_bottom = 0.264
+offset_left = -103.88
+offset_top = -127.072
+offset_right = 103.12
+offset_bottom = -0.0720062
