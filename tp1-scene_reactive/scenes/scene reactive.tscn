@@ -165,7 +165,7 @@ position = Vector2(-103, 402)
 scale = Vector2(7.78125, 7.78125)
 sprite_frames = SubResource("SpriteFrames_dpi4q")
 animation = &"run"
-frame_progress = 0.329223
+frame_progress = 0.781187
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Button2/CharacterBody2D"]
 position = Vector2(-100, 430)
