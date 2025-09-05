@@ -1,9 +1,7 @@
 [gd_scene load_steps=27 format=3 uid="uid://c8p4youo2hr5a"]
 
-[ext_resource type="AudioStream" uid="uid://ds2mvloyv3h6m" path="res://assets/audio/ambient-6-159169.mp3" id="1_ln2we"]
 [ext_resource type="Script" uid="uid://do14708i3hfm5" path="res://scenes/button.gd" id="1_re1t8"]
 [ext_resource type="Script" uid="uid://bsvoiqbsa277p" path="res://scenes/button_2.gd" id="3_eotil"]
-[ext_resource type="AudioStream" uid="uid://b53wwle4moxjs" path="res://assets/audio/techno-wasted-time-239584.mp3" id="3_re1t8"]
 [ext_resource type="Texture2D" uid="uid://cyjcf6ir887ik" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_0.png" id="5_47t1j"]
 [ext_resource type="Texture2D" uid="uid://cpcxcy0tb55ql" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_1.png" id="6_fxa3r"]
 [ext_resource type="Texture2D" uid="uid://cmp7v2265j08c" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_2.png" id="7_dlgea"]
@@ -14,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://b2l87oi23f2el" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_1.png" id="12_yqapl"]
 [ext_resource type="Texture2D" uid="uid://tmea0j632ylg" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_2.png" id="13_dn2ku"]
 [ext_resource type="Texture2D" uid="uid://1yujtgu41cpx" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_3.png" id="14_gbkos"]
+[ext_resource type="AudioStream" uid="uid://ffuuejnkja1w" path="res://assets/audio/ambient-6-159169.wav" id="14_ls3er"]
 [ext_resource type="Texture2D" uid="uid://b4ud5x0qdmksa" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_4.png" id="15_r3i1p"]
 [ext_resource type="Texture2D" uid="uid://bjxc1p8twffjn" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_5.png" id="16_reill"]
 [ext_resource type="Texture2D" uid="uid://c12ocxgeltis0" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_0.png" id="18_xye4g"]
@@ -21,6 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://8lgxwue4kmo6" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_2.png" id="20_dn2ku"]
 [ext_resource type="Texture2D" uid="uid://s0uv1okmrh0k" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_3.png" id="21_gbkos"]
 [ext_resource type="Texture2D" uid="uid://cidx2qjpdv7a6" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_4.png" id="22_r3i1p"]
+[ext_resource type="AudioStream" uid="uid://ds3perlxof3k5" path="res://assets/audio/techno-wasted-time-239584.wav" id="22_xye4g"]
 [ext_resource type="Texture2D" uid="uid://brwu03q56rxkq" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_5.png" id="23_reill"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_pnc4w"]
@@ -116,13 +116,13 @@ grow_vertical = 2
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.175
-anchor_top = 0.275
+anchor_top = 0.171
 anchor_right = 0.175
-anchor_bottom = 0.275
+anchor_bottom = 0.171
 offset_left = -109.6
-offset_top = -134.2
+offset_top = -66.808
 offset_right = 110.4
-offset_bottom = -0.199997
+offset_bottom = 67.192
 toggle_mode = true
 text = "1"
 script = ExtResource("1_re1t8")
@@ -141,36 +141,36 @@ position = Vector2(374.5, 469)
 shape = SubResource("RectangleShape2D_yqapl")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button"]
-stream = ExtResource("1_ln2we")
+stream = ExtResource("14_ls3er")
 
 [node name="Button2" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.815
-anchor_top = 0.264
+anchor_top = 0.166
 anchor_right = 0.815
-anchor_bottom = 0.264
+anchor_bottom = 0.166
 offset_left = -103.88
-offset_top = -127.072
+offset_top = -63.568
 offset_right = 103.12
-offset_bottom = -0.0720062
+offset_bottom = 63.432
 toggle_mode = true
 text = "2"
 script = ExtResource("3_eotil")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Button2"]
 
-[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Button2/CharacterBody2D"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button2/CharacterBody2D"]
 position = Vector2(-103, 402)
 scale = Vector2(7.78125, 7.78125)
 sprite_frames = SubResource("SpriteFrames_dpi4q")
 animation = &"run"
-frame_progress = 0.449578
+frame_progress = 0.329223
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Button2/CharacterBody2D"]
 position = Vector2(-100, 430)
 shape = SubResource("RectangleShape2D_dn2ku")
 one_way_collision_margin = 0.0
 
-[node name="AudioStreamPLayer2" type="AudioStreamPlayer" parent="Button2"]
-stream = ExtResource("3_re1t8")
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button2"]
+stream = ExtResource("22_xye4g")

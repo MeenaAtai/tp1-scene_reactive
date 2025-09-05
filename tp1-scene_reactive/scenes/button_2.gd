@@ -1,9 +1,13 @@
 extends Button
 
+@export var sprite: AnimatedSprite2D
+@export var sound: AudioStreamPlayer
+
 func _on_toggled(toggled_on: bool) -> void:
 	if toggled_on:
-		$AudioStreamPlayer.play()
 		$AnimatedSprite2D.play()
+		$AudioStreamPlayer.play()
 	else:
-		$AudioStreamPlayer.stop()
 		$AnimatedSprite2D.stop()
+		$AudioStreamPlayer.stop()
+		
