@@ -14,6 +14,6 @@ Petit projet réalisé avec **Godot** explore la combinaison entre réactivité 
   - Flèche gauche : active/désactive l’animation d’attaque (`attack`).
   - Flèche gauche : active/désactive l’animation d’attaque (`jump`).
 - **Fond** :
-  - Image de fond qui s’ajuste automatiquement à la fenêtre (pas de bord gris).
+  - Image de fond qui s’ajuste automatiquement à la fenêtre.
 - **Interface** :
   - Boutons et sprites restent bien placés grâce au système d’ancres.
