@@ -11,7 +11,8 @@ Petit projet réalisé avec **Godot 4.4.1** explore la combinaison entre réacti
 - **Bouton Toggle** :
   - Active/désactive l’animation de course (`run`) et le son associé.
 - **Clavier** :
-  - Flèche gauche (ou touche assignée `attack`) : active/désactive l’animation d’attaque (`attack`).
+  - Flèche gauche : active/désactive l’animation d’attaque (`attack`).
+  - Flèche gauche : active/désactive l’animation d’attaque (`attack`).
 - **Fond** :
   - Image de fond qui s’ajuste automatiquement à la fenêtre (pas de bord gris).
 - **Interface** :
