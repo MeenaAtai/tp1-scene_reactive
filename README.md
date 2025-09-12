@@ -1,13 +1,13 @@
-# Projet Godot – Animation & Interface
+# TP1 - Scène réactive
 
-## 🎮 Description
+## Description
 Petit projet réalisé avec **Godot 4.4.1** pour expérimenter :
 - l’utilisation d’un **bouton toggle** pour déclencher des animations et du son,
-- la gestion des **entrées clavier** pour lancer une attaque,
-- la mise en place d’un **fond responsive** qui s’adapte à la taille de la fenêtre,
+- la gestion des **entrées clavier** pour lancer une animation sprite,
+- la mise en place d’un **fond** qui s’adapte à la taille de la fenêtre,
 - une interface avec **sprites et boutons** correctement ancrés (responsive UI).
 
-## ⚙️ Fonctionnalités
+## Fonctionnalités
 - **Bouton Toggle** :
   - Active/désactive l’animation de course (`run`) et le son associé.
 - **Clavier** :
@@ -17,11 +17,11 @@ Petit projet réalisé avec **Godot 4.4.1** pour expérimenter :
 - **Interface** :
   - Boutons et sprites restent bien placés grâce au système d’ancres.
 
-## 🚀 Technologies
+## Technologies
 - Moteur : [Godot Engine 4.4.1](https://godotengine.org/)
 - Langage : GDScript
 
-## 📦 Installation
+## Installation
 1. Cloner ce dépôt :
    ```bash
    git clone https://github.com/TON-NOM-UTILISATEUR/TON-PROJET.git
