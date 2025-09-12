@@ -1,7 +1,7 @@
 # TP1 - Scène réactive
 
 ## Description
-Petit projet réalisé avec **Godot 4.4.1** explore la combinaison entre réactivité audiovisuelle et interactions clavier, tout en intégrant les fonctionnalités essentielles de gestion des médias dans Godot :
+Petit projet réalisé avec **Godot** explore la combinaison entre réactivité audiovisuelle et interactions clavier, tout en intégrant les fonctionnalités essentielles de gestion des médias dans Godot :
 - l’utilisation de **boutons toggle** pour déclencher des animations et du son,
 - la gestion des **entrées clavier** pour lancer une animation sprite et son,
 - la mise en place d’un **fond** qui s’adapte à la taille de la fenêtre,
