@@ -12,7 +12,7 @@ Petit projet réalisé avec **Godot** explore la combinaison entre réactivité 
   - Active/désactive l’animation de course (`run`) et le son associé.
 - **Clavier** :
   - Flèche gauche : active/désactive l’animation d’attaque (`attack`).
-  - Flèche gauche : active/désactive l’animation d’attaque (`attack`).
+  - Flèche gauche : active/désactive l’animation d’attaque (`jump`).
 - **Fond** :
   - Image de fond qui s’ajuste automatiquement à la fenêtre (pas de bord gris).
 - **Interface** :
