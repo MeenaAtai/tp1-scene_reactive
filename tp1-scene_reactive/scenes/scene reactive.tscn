@@ -1,27 +1,41 @@
-[gd_scene load_steps=27 format=3 uid="uid://c8p4youo2hr5a"]
+[gd_scene load_steps=37 format=3 uid="uid://c8p4youo2hr5a"]
 
 [ext_resource type="Script" uid="uid://do14708i3hfm5" path="res://scenes/button.gd" id="1_re1t8"]
 [ext_resource type="Script" uid="uid://bsvoiqbsa277p" path="res://scenes/button_2.gd" id="3_eotil"]
-[ext_resource type="Texture2D" uid="uid://cyjcf6ir887ik" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_0.png" id="5_47t1j"]
-[ext_resource type="Texture2D" uid="uid://cpcxcy0tb55ql" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_1.png" id="6_fxa3r"]
-[ext_resource type="Texture2D" uid="uid://cmp7v2265j08c" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_2.png" id="7_dlgea"]
-[ext_resource type="Texture2D" uid="uid://dry0003hlhu4g" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_3.png" id="8_uurcm"]
-[ext_resource type="Texture2D" uid="uid://ds1inve7574bp" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_4.png" id="9_ol7qd"]
-[ext_resource type="Texture2D" uid="uid://c5h2jocvu2ypk" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites/sprite_5.png" id="10_ls3er"]
-[ext_resource type="Texture2D" uid="uid://de58eo6ryrwui" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_0.png" id="11_xye4g"]
-[ext_resource type="Texture2D" uid="uid://b2l87oi23f2el" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_1.png" id="12_yqapl"]
-[ext_resource type="Texture2D" uid="uid://tmea0j632ylg" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_2.png" id="13_dn2ku"]
-[ext_resource type="Texture2D" uid="uid://1yujtgu41cpx" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_3.png" id="14_gbkos"]
+[ext_resource type="Texture2D" uid="uid://cyjcf6ir887ik" path="res://assets/sprites/1 Pink_Monster/sprite_0.png" id="5_47t1j"]
+[ext_resource type="Texture2D" uid="uid://cpcxcy0tb55ql" path="res://assets/sprites/1 Pink_Monster/sprite_1.png" id="6_fxa3r"]
+[ext_resource type="Texture2D" uid="uid://cmp7v2265j08c" path="res://assets/sprites/1 Pink_Monster/sprite_2.png" id="7_dlgea"]
+[ext_resource type="Texture2D" uid="uid://dry0003hlhu4g" path="res://assets/sprites/1 Pink_Monster/sprite_3.png" id="8_uurcm"]
+[ext_resource type="Texture2D" uid="uid://ds1inve7574bp" path="res://assets/sprites/1 Pink_Monster/sprite_4.png" id="9_ol7qd"]
+[ext_resource type="Texture2D" uid="uid://bdp31brkmqgbf" path="res://assets/sprites/2 Owlet_Monster/Owlet_Monster_Jump_8.png" id="10_fxa3r"]
+[ext_resource type="Texture2D" uid="uid://c5h2jocvu2ypk" path="res://assets/sprites/1 Pink_Monster/sprite_5.png" id="10_ls3er"]
 [ext_resource type="AudioStream" uid="uid://ffuuejnkja1w" path="res://assets/audio/ambient-6-159169.wav" id="14_ls3er"]
-[ext_resource type="Texture2D" uid="uid://b4ud5x0qdmksa" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_4.png" id="15_r3i1p"]
-[ext_resource type="Texture2D" uid="uid://bjxc1p8twffjn" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/1 Pink_Monster/sprites (1)/sprite_5.png" id="16_reill"]
-[ext_resource type="Texture2D" uid="uid://c12ocxgeltis0" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_0.png" id="18_xye4g"]
-[ext_resource type="Texture2D" uid="uid://dax1d1vshfk6e" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_1.png" id="19_yqapl"]
-[ext_resource type="Texture2D" uid="uid://8lgxwue4kmo6" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_2.png" id="20_dn2ku"]
-[ext_resource type="Texture2D" uid="uid://s0uv1okmrh0k" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_3.png" id="21_gbkos"]
-[ext_resource type="Texture2D" uid="uid://cidx2qjpdv7a6" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_4.png" id="22_r3i1p"]
+[ext_resource type="Texture2D" uid="uid://dtblsoabrg2i8" path="res://assets/exploration-creative-pixels-dans-conception_893755-5299.png" id="17_47t1j"]
+[ext_resource type="Texture2D" uid="uid://c12ocxgeltis0" path="res://assets/sprites/2 Owlet_Monster/sprite_0.png" id="18_xye4g"]
+[ext_resource type="Texture2D" uid="uid://dax1d1vshfk6e" path="res://assets/sprites/2 Owlet_Monster/sprite_1.png" id="19_yqapl"]
+[ext_resource type="Texture2D" uid="uid://8lgxwue4kmo6" path="res://assets/sprites/2 Owlet_Monster/sprite_2.png" id="20_dn2ku"]
+[ext_resource type="Texture2D" uid="uid://s0uv1okmrh0k" path="res://assets/sprites/2 Owlet_Monster/sprite_3.png" id="21_gbkos"]
+[ext_resource type="Texture2D" uid="uid://cidx2qjpdv7a6" path="res://assets/sprites/2 Owlet_Monster/sprite_4.png" id="22_r3i1p"]
 [ext_resource type="AudioStream" uid="uid://ds3perlxof3k5" path="res://assets/audio/techno-wasted-time-239584.wav" id="22_xye4g"]
-[ext_resource type="Texture2D" uid="uid://brwu03q56rxkq" path="res://assets/sprites/free-pixel-art-tiny-hero-sprites/2 Owlet_Monster/sprites (2)/sprite_5.png" id="23_reill"]
+[ext_resource type="Texture2D" uid="uid://brwu03q56rxkq" path="res://assets/sprites/2 Owlet_Monster/sprite_5.png" id="23_reill"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gg0n1"]
+load_path = "res://.godot/imported/sprite_0.png-d22ffa1e6b3b5514a16c6729b52c6e16.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_47t1j"]
+load_path = "res://.godot/imported/sprite_1.png-e0de8e67f00c585a84d1ae4d486ecf76.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fxa3r"]
+load_path = "res://.godot/imported/sprite_2.png-becace560f3d5a73bda2ff9b19dfe05b.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dlgea"]
+load_path = "res://.godot/imported/sprite_3.png-53588a638f40d97595c5c683019543de.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uurcm"]
+load_path = "res://.godot/imported/sprite_4.png-d4f54187234750d3a513e03611e5551f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ol7qd"]
+load_path = "res://.godot/imported/sprite_5.png-6ae59bd0bc763ae18328a7b20eb352e2.ctex"
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_pnc4w"]
 animations = [{
@@ -50,22 +64,22 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("11_xye4g")
+"texture": SubResource("CompressedTexture2D_gg0n1")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_yqapl")
+"texture": SubResource("CompressedTexture2D_47t1j")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_dn2ku")
+"texture": SubResource("CompressedTexture2D_fxa3r")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_gbkos")
+"texture": SubResource("CompressedTexture2D_dlgea")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_r3i1p")
+"texture": SubResource("CompressedTexture2D_uurcm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_reill")
+"texture": SubResource("CompressedTexture2D_ol7qd")
 }],
 "loop": true,
 "name": &"run",
@@ -73,10 +87,71 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yqapl"]
-size = Vector2(129, 186)
+size = Vector2(80, 115)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dlgea"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uurcm"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ol7qd"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ls3er"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xye4g"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqapl"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dn2ku"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gbkos"]
+atlas = ExtResource("10_fxa3r")
+region = Rect2(224, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_dpi4q"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dlgea")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uurcm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ol7qd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ls3er")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xye4g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqapl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dn2ku")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gbkos")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("18_xye4g")
@@ -102,7 +177,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dn2ku"]
-size = Vector2(109, 180)
+size = Vector2(109, 105)
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -124,24 +199,29 @@ offset_top = -66.808
 offset_right = 110.4
 offset_bottom = 67.192
 toggle_mode = true
-text = "1"
+text = "Toggle 1
+(Déclenchement du 
+son et animation run)
+Appuyer la flèche gauche
+pour animation attack"
 script = ExtResource("1_re1t8")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Button"]
 position = Vector2(-92, -44)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button/CharacterBody2D"]
-position = Vector2(362, 450)
-scale = Vector2(7.65625, 7.65625)
+position = Vector2(377, 448)
+scale = Vector2(4.17188, 4.17188)
 sprite_frames = SubResource("SpriteFrames_pnc4w")
 animation = &"run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Button/CharacterBody2D"]
-position = Vector2(374.5, 469)
+position = Vector2(380, 460.5)
 shape = SubResource("RectangleShape2D_yqapl")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button"]
 stream = ExtResource("14_ls3er")
+volume_db = -20.0
 
 [node name="Button2" type="Button" parent="."]
 layout_mode = 1
@@ -150,27 +230,38 @@ anchor_left = 0.815
 anchor_top = 0.166
 anchor_right = 0.815
 anchor_bottom = 0.166
-offset_left = -103.88
+offset_left = -101.88
 offset_top = -63.568
-offset_right = 103.12
+offset_right = 105.12
 offset_bottom = 63.432
 toggle_mode = true
-text = "2"
+text = "Toggle 2 
+(Déclenchement du 
+son et animation)
+Appuyer la flèche droite
+pour animation jump"
 script = ExtResource("3_eotil")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Button2"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Button2/CharacterBody2D"]
-position = Vector2(-103, 402)
-scale = Vector2(7.78125, 7.78125)
+position = Vector2(-99, 407)
+scale = Vector2(3.89063, 3.89063)
 sprite_frames = SubResource("SpriteFrames_dpi4q")
-animation = &"run"
-frame_progress = 0.781187
+animation = &"jump"
+frame_progress = 0.263059
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Button2/CharacterBody2D"]
-position = Vector2(-100, 430)
+position = Vector2(-95, 414)
 shape = SubResource("RectangleShape2D_dn2ku")
 one_way_collision_margin = 0.0
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button2"]
 stream = ExtResource("22_xye4g")
+volume_db = -20.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(577, 325)
+scale = Vector2(1.85114, 1.85114)
+texture = ExtResource("17_47t1j")
